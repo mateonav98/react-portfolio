@@ -3,7 +3,7 @@ const Navigation = () => {
     <nav>
     <ul>
       <li>
-        <a href="#cards-container">Projects</a>
+        <a href="#projects">Projects</a>
       </li>
       <li>
         <a href="#About">About</a>
