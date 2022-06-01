@@ -1,15 +1,15 @@
-const Navigation = () => {
+const Navigation = ( {currentPage, handlePageChange} ) => {
   return (
     <nav>
     <ul>
-      <li>
-        <a href="#projects">Projects</a>
+      <li className={currentPage === "About"}>
+        <a href="#About" onClick={() => handlePageChange("About")}>About</a>
       </li>
-      <li>
-        <a href="#About">About</a>
+      <li className={currentPage === "Projects"}>
+        <a href="#Projects" onClick={() => handlePageChange("Projects")}>Projects</a>
       </li>
-      <li>
-        <a href="#Contact">Contact</a>
+      <li className={currentPage === "Contact"}>
+        <a href="#Contact" onClick={() => handlePageChange("Contact")}>Contact</a>
       </li>
     </ul>
   </nav>
