@@ -6,6 +6,7 @@ import Contact from "./Contact"
 import Resume from "./Resume"
 
 
+
 const Header = ({title}) => {
   const [currentPage, setCurrentPage] = useState("About");
 
@@ -28,8 +29,10 @@ const Header = ({title}) => {
   return (
     <header>
         <h1>{title}</h1>
+        
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         {renderPage()}
+  
     </header>
   )
 }
