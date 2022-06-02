@@ -10,7 +10,7 @@ const About = () => {
             I'm Mateo
             <br />
             </h1>
-            <h2> I am Full Stack Web Developer
+            <h2> I am a Full Stack Web Developer
                 <br />
                 <br />
                 I have experience working with robotic medical devices, proficient in collaborating with engineers and other cross functional teams to test new product designs, analyze performance and product issues, and maintain accurate project records.
