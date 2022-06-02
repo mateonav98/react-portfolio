@@ -7,7 +7,7 @@ const Projects = () => {
         
     
     <div className="wrapper">
-
+    <h2>Projects</h2>
     <div className="one"> 
         <img src="get-unbored.gif" alt="get unbored gif" href="https://17keerti.github.io/get-unbored/"></img>
         <a className='projects' href="https://17keerti.github.io/get-unbored/">Get Unbored</a>

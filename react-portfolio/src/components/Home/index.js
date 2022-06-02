@@ -8,9 +8,9 @@ import './index.scss'
 const Home = () => {
   return (
       <>
-        <About />
+        {/* <About />
         <Projects />
-        <Contact />
+        <Contact /> */}
         </>
   )
 }

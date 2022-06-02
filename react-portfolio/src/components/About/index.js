@@ -21,7 +21,8 @@ const About = () => {
             <Link to='#contact' className='flat-button'> CONTACT ME</Link>
         </div>
 
-        <h2>Projects</h2>
+        
+      
         </div>
   )
 }
