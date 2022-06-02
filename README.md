@@ -4,7 +4,7 @@
 ## Description
 Portfolio built and designed using React. Webpage incudes an image of myself, an about me section, past projects, and my contact info. Intended to showcase my experience, work, and more about myself. Application is deployed through Github Pages.
 
-Deployed link: https://mateonav98.github.io/
+Deployed link: https://mateonav98.github.io/react-portfolio/
 
 
 ## Table of Contents
