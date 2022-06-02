@@ -1,0 +1,85 @@
+
+
+.wrapper {
+    margin-top: 50px;
+    display: grid;
+    overflow: auto;
+    resize: horizontal;
+    min-width: min-content;
+    padding-left: 140px;
+    padding-right: 33px;
+    grid-template-columns: repeat(4, minmax(400px, 1fr));
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 7;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 7;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 7;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 8;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 8;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 8;
+  }
+  img {
+      width: 100%;
+      height: fit-content;
+  }
+
+  p {
+    color: #a1a1a1;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: sans-serif;
+    letter-spacing: 3px;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  a {
+    font-size: 22px;
+    color: #4e4e4e;
+    display: block;
+    line-height: 51px;
+    height: 51px;
+    position: block;
+    text-decoration: none;
+    text-align: center;
+  }
+  a.projects {
+    color: #ffd700;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    text-decoration: none;
+    padding: 10px 18px;
+    border: 1px solid #ffd700;
+    margin-top: 25px;
+    animation: fadeIn 1s 1.8s backwards;
+
+
+        &:hover {
+            background: #ffd700;
+            color: #333;
+        }
+}
+
+
+
+  

@@ -2,6 +2,7 @@ import './App.scss';
 import Layout from './components/Layout'
 import Home from './components/Home';
 import About from './components/About'
+import Contact from './components/Contact/Contact';
 import { Route, Routes } from 'react-router-dom';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       </Routes> */}
       <Layout />
       <Home />
-      <About />
+      <About path=""/>
+      <Contact path="#Contact" />
     </>
   )
 }
