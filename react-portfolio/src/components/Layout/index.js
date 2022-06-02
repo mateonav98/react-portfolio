@@ -3,8 +3,11 @@ import Sidebar from '../Sidebar'
 
 const Layout = () => {
   return (
-    <div>
+    <div className='App'>
       <Sidebar />
+      <div className='page'>
+        <span></span>
+      </div>
       </div>
   )
 }
